@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Böngészd Magyarország legjobb lakberendezőit. Találd meg a tökéletes szakembert projektedhez!">
+    <title>Lakberendezők - Lakberendezők.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header scrolled">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Lakberendezők</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="lakberendezok.html">Lakberendezők</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menü"><span></span><span></span><span></span></button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <p class="section-label">Szakemberek</p>
+                <h1>Lakberendezőink</h1>
+                <p>Válogatott szakemberek különböző stílusokban. Szűrj igényeid szerint.</p>
+            </div>
+        </section>
+
+        <section style="padding: 60px 0 100px;">
+            <div class="container">
+                <!-- Filters -->
+                <div class="filters-section">
+                    <div class="filter-row">
+                        <span class="filter-label">Helyszín:</span>
+                        <div class="filter-pills" data-filter="location">
+                            <button class="filter-pill active" data-value="">Mind</button>
+                            <button class="filter-pill" data-value="budapest">Budapest</button>
+                            <button class="filter-pill" data-value="balaton">Balaton</button>
+                            <button class="filter-pill" data-value="videk">Vidék</button>
+                        </div>
+                    </div>
+                    <div class="filter-row">
+                        <span class="filter-label">Árkategória:</span>
+                        <div class="filter-pills" data-filter="price">
+                            <button class="filter-pill active" data-value="">Mind</button>
+                            <button class="filter-pill" data-value="kozepes">Közepes</button>
+                            <button class="filter-pill" data-value="kozep-felso">Közép-felső</button>
+                            <button class="filter-pill" data-value="premium">Prémium</button>
+                        </div>
+                    </div>
+                    <div class="filter-row">
+                        <span class="filter-label">Stílus:</span>
+                        <div class="filter-pills" data-filter="style">
+                            <button class="filter-pill active" data-value="">Mind</button>
+                            <button class="filter-pill" data-value="modern">Modern</button>
+                            <button class="filter-pill" data-value="skandinav">Skandináv</button>
+                            <button class="filter-pill" data-value="luxus">Luxus</button>
+                            <button class="filter-pill" data-value="loft">Loft / Ipari</button>
+                            <button class="filter-pill" data-value="eklektikus">Eklektikus</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="results-info" id="results-info"></div>
+                <div class="designers-grid" id="all-designers"></div>
+                <div class="no-results" id="no-results" style="display: none;">
+                    <p>Nincs találat a megadott szűrőkkel. Próbálj más kombinációt!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <p class="section-label" style="color: var(--color-accent);">Lakberendezőknek</p>
+                <h2>Szeretnél felkerülni az oldalra?</h2>
+                <p>Csatlakozz Magyarország növekvő lakberendező közösségéhez</p>
+                <a href="mailto:info@lakberendezok.com" class="btn btn-primary">Jelentkezz</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Lakberendezők</a>
+                    <p>Magyarország lakberendező platformja.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Oldalak</h4>
+                    <ul>
+                        <li><a href="index.html">Főoldal</a></li>
+                        <li><a href="lakberendezok.html">Lakberendezők</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Kapcsolat</h4>
+                    <ul><li><a href="mailto:info@lakberendezok.com">info@lakberendezok.com</a></li></ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Lakberendezők.com</p>
+                <p>Minden jog fenntartva</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

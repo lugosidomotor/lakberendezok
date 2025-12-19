@@ -1,0 +1,9 @@
+# Képek mappa
+# Ide kerülnek a képek a következő struktúrában:
+# - designers/ - lakberendezők profilképei
+# - references/ - referencia munkák képei
+# - blog/ - blog posztok képei
+# - placeholder-designer.jpg - alapértelmezett lakberendező kép
+# - placeholder-blog.jpg - alapértelmezett blog kép
+# - placeholder-reference.jpg - alapértelmezett referencia kép
+# - furniture-showcase.jpg - ArtPresident szekció kép

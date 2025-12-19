@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Magyarország legjobb lakberendezői egy helyen. Találd meg álmaid otthonának tervezőjét!">
+    <title>Lakberendezők.com - Prémium Lakberendezési Szolgáltatások</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">Lakberendezők</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Főoldal</a></li>
+                <li><a href="lakberendezok.html">Lakberendezők</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Menü"><span></span><span></span><span></span></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-bg">
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1600&q=80" alt="">
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <p class="section-label">Lakberendezők.com</p>
+                    <h1>Találd meg a tökéletes lakberendezőt</h1>
+                    <p>Válogatott szakemberek, valódi referenciák, hiteles értékelések. Bármilyen stílust keresel, megtalálod nálunk.</p>
+                    <div class="hero-cta">
+                        <a href="lakberendezok.html" class="btn btn-primary">Szakemberek böngészése</a>
+                        <a href="#hogyan-mukodik" class="btn btn-secondary">Hogyan működik?</a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-avatars">
+                            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80" alt="">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80" alt="">
+                        </div>
+                        <p><strong>500+</strong> elégedett ügyfél</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Lakberendező</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>500+</h3>
+                        <p>Befejezett projekt</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>4.9</h3>
+                        <p>Átlagos értékelés</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>98%</h3>
+                        <p>Elégedett ügyfél</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works -->
+        <section class="how-it-works" id="hogyan-mukodik">
+            <div class="container">
+                <div class="section-header center">
+                    <p class="section-label">Egyszerű folyamat</p>
+                    <h2 class="section-title">Hogyan működik?</h2>
+                </div>
+                <div class="steps-grid">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">🔍</div>
+                        <h3>Böngéssz</h3>
+                        <p>Nézd át a lakberendezők profilját, referenciáit és értékeléseit. Szűrj stílus, helyszín vagy árkategória szerint.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">💬</div>
+                        <h3>Kapcsolódj</h3>
+                        <p>Vedd fel a kapcsolatot a kiválasztott szakemberrel. Az első konzultáció általában ingyenes.</p>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">✨</div>
+                        <h3>Valósítsd meg</h3>
+                        <p>Dolgozzatok együtt az álomotthonod megvalósításán. A lakberendező végigkísér az egész folyamaton.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Designers -->
+        <section class="featured-designers" style="background: var(--color-bg-alt);">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Kiemelt szakemberek</p>
+                    <h2 class="section-title">Lakberendezőink</h2>
+                    <p class="section-subtitle">Tapasztalt profik, akik segítenek megálmodni és megvalósítani az otthonod</p>
+                </div>
+                <div class="designers-grid" id="featured-designers"></div>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="lakberendezok.html" class="btn btn-primary">Összes lakberendező</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Styles showcase -->
+        <section class="styles-section">
+            <div class="container">
+                <div class="section-header center">
+                    <p class="section-label">Stílusok</p>
+                    <h2 class="section-title">Minden stílushoz találsz szakembert</h2>
+                </div>
+                <div class="styles-grid">
+                    <a href="lakberendezok.html" class="style-card">
+                        <img src="https://images.unsplash.com/photo-1600210491892-03d54c0aaf87?w=600&q=80" alt="Modern">
+                        <div class="style-overlay">
+                            <h3>Modern</h3>
+                        </div>
+                    </a>
+                    <a href="lakberendezok.html" class="style-card">
+                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&q=80" alt="Skandináv">
+                        <div class="style-overlay">
+                            <h3>Skandináv</h3>
+                        </div>
+                    </a>
+                    <a href="lakberendezok.html" class="style-card">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=80" alt="Luxus">
+                        <div class="style-overlay">
+                            <h3>Luxus</h3>
+                        </div>
+                    </a>
+                    <a href="lakberendezok.html" class="style-card">
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=600&q=80" alt="Industrial">
+                        <div class="style-overlay">
+                            <h3>Industrial</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials" style="background: var(--color-bg-alt);">
+            <div class="container">
+                <div class="section-header center">
+                    <p class="section-label">Vélemények</p>
+                    <h2 class="section-title">Ügyfeleink mondták</h2>
+                </div>
+                <div class="testimonials-grid" id="testimonials-grid"></div>
+            </div>
+        </section>
+
+        <!-- Blog -->
+        <section class="latest-posts">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Blog</p>
+                    <h2 class="section-title">Friss inspirációk</h2>
+                    <p class="section-subtitle">Trendek, tippek és ötletek otthonod szépítéséhez</p>
+                </div>
+                <div class="posts-grid" id="latest-posts"></div>
+                <div style="text-align: center; margin-top: 3rem;">
+                    <a href="blog.html" class="btn btn-secondary">Összes cikk →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta-section">
+            <div class="container">
+                <p class="section-label" style="color: var(--color-accent);">Lakberendezőknek</p>
+                <h2>Szeretnél felkerülni az oldalra?</h2>
+                <p>Csatlakozz Magyarország növekvő lakberendező közösségéhez és szerezz új ügyfeleket</p>
+                <a href="mailto:info@lakberendezok.com" class="btn btn-primary">Jelentkezz</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Lakberendezők</a>
+                    <p>Magyarország lakberendező platformja. Segítünk megtalálni a tökéletes szakembert.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Oldalak</h4>
+                    <ul>
+                        <li><a href="index.html">Főoldal</a></li>
+                        <li><a href="lakberendezok.html">Lakberendezők</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Kapcsolat</h4>
+                    <ul>
+                        <li><a href="mailto:info@lakberendezok.com">info@lakberendezok.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 Lakberendezők.com</p>
+                <p>Minden jog fenntartva</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
